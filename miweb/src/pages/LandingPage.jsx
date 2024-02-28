@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./landingpage.css";
+import Team from "../components/team";
 
 function LandingPage() {
   return (
@@ -16,8 +17,37 @@ function LandingPage() {
         </Link>
         <img src="./logosclientes.png" alt="clients logos" />
       </div>
+      <div className="quienesSomos">
+        <h2>QUIENES SOMOS</h2>
+        <div className="equipo" style={{ display: "flex" }}>
+          <Team
+            name="Pedro Pedrazas"
+            description="CEO"
+            imageUrl="./persona1.png"
+          />
+          <Team
+            name="Martina Martinez"
+            description="Directora de Diseño y Fotografía"
+            imageUrl="./persona2.png"
+          />
+          <Team
+            name="Fernanda Fernandez"
+            description="Ejecutiva de Cuentas"
+            imageUrl="./persona3.png"
+          />
+          <Team
+            name="Juan Juanes"
+            description="Community Manager"
+            imageUrl="./persona4.png"
+          />
+        </div>
+      </div>
+      <div className="fondo">
+      <Link to="/contact">
+          <img src="./fondocontacto.png" alt="contacto" />
+        </Link>
+      </div>
     </div>
-
   );
 }
 
