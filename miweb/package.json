@@ -14,8 +14,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    {{/*    "build": "react-scripts build -s -n -L -p $PORT",*/}}
-    {{/*"start": "serve build",*/}}
     "build": "react-scripts build",
     "start": "react-scripts start",
     "test": "react-scripts test",
