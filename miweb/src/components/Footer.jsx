@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="contact-info1">
-        <p className='title'>Contact</p>
+        <p className='title'>Contacto</p>
         <p>theagency@gmail.com</p>
         <p>(+54) 341 305 0492</p>
         <p>Calle Siempre Viva 742</p>
