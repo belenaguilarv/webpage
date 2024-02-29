@@ -29,7 +29,7 @@ function LandingPage() {
           />
           <Team
             name="Martina Martinez"
-            description="Directora de Diseño y Fotografía"
+            description="Directora de Diseño"
             imageUrl="./persona2.png"
           />
           <Team

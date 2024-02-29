@@ -1,8 +1,7 @@
-/* landingpage.css */
 .fondo img,
 .fondoLanding img {
     width: 100%;
-    height: auto; /* Esto mantiene la proporción de la imagen */
+    height: auto;
 }
   
 .quienesSomos {
@@ -13,4 +12,15 @@
     color: orangered;
     text-align: center;
     font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .equipo {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .equipo > * {
+        margin-bottom: 20px; 
+    }
 }
