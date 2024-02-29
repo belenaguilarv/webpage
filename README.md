@@ -11,3 +11,17 @@ ReactJS, Canva
 
 ## Contenido Visual: 
 Canva
+
+## Ejecución del Proyecto
+1. Clonar repositorio
+git clone https://github.com/belenaguilarv/webpage.git
+
+2. Instalar dependencias
+cd miweb
+npm install
+
+3. Ejecutar la aplicación
+npm start
+
+4. Visualizar la aplicación
+Abrir el navegador e ir a la dirección: http://localhost:3000
