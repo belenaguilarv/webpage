@@ -5,17 +5,19 @@ import Team from "../components/team";
 function LandingPage() {
   return (
     <div className="LandingPage">
-      <div className="fondo">
-        <Link to="/">
+      <div className="fondoLanding">
           <img src="./fondo0.png" alt="Inicio" />
-        </Link>
+      </div>
+      <div className="fondo">
         <Link to="/services">
           <img src="./fondo1.png" alt="servicios" />
         </Link>
         <Link to="/client_work">
           <img src="./fondo2.png" alt="client work" />
         </Link>
-        <img src="./logosclientes.png" alt="clients logos" />
+      </div>
+      <div className="fondoLanding">
+      <img src="./logosclientes.png" alt="clients logos" />
       </div>
       <div className="quienesSomos">
         <h2>QUIENES SOMOS</h2>
@@ -43,7 +45,7 @@ function LandingPage() {
         </div>
       </div>
       <div className="fondo">
-      <Link to="/contact">
+        <Link to="/contact">
           <img src="./fondocontacto.png" alt="contacto" />
         </Link>
       </div>

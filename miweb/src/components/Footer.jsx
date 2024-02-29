@@ -13,9 +13,20 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="contact-info">
-        <p>Mail: belenaguiilarv@gmail.com</p>
-        <p>Celular: (+54) 9 351 375 0472</p>
+      <div className="contact-info1">
+        <p className='title'>Contact</p>
+        <p>theagency@gmail.com</p>
+        <p>(+54) 341 305 0492</p>
+        <p>Calle Siempre Viva 742</p>
+      </div>
+      <div className='contact-info2'>
+        {/*podrian ser links a redes sociales*/}
+        <p className='title'>Nuestras Redes</p>
+        <div className='redes'>
+        <img src="/logoFb.png" alt="facebok" />
+        <img src="/logoInstagram.png" alt="facebok" />
+        <img src="/logoYoutube.png" alt="facebok" />
+        </div>
       </div>
     </footer>
   );

@@ -1,11 +1,13 @@
 /* landingpage.css */
-.fondo img {
+.fondo img,
+.fondoLanding img {
     width: 100%;
     height: auto; /* Esto mantiene la proporción de la imagen */
 }
+  
 .quienesSomos {
     padding: 30px;
-    background-color: rgb(46, 2, 87);
+    background-color: rgba(0, 0, 0, 0.801);
 }
 .quienesSomos h2{
     color: orangered;

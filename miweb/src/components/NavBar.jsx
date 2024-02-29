@@ -1,4 +1,3 @@
-// NavBar.jsx
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import "./navbar.css";
@@ -6,9 +5,13 @@ import "./navbar.css";
 const NavBar = () => {
   const location = useLocation();
 
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <nav className="navbar">
-      <div className="logo">
+      <div className="logo" onClick={handleLogoClick}>
         <Link to="/">
           <img src="/thelogo.png" alt="Logo" />
         </Link>

@@ -1,14 +1,26 @@
 .footer {
+  width: 100%;
+  background-color: #000000; 
+  padding: 50px; 
+  text-align: center; 
+  color: #fff;
+  display: flex; 
+  justify-content: space-between; 
+}
 
-    width: 100%;
-    background-color: #000000; 
-    padding: 10px; 
-    text-align: center; 
-    color: #fff; /* Color del texto */
-  }
-  
-  .contact-info {
-    margin: 0 auto; /* Centra el bloque de contacto */
-    max-width: 300px; /* Ancho máximo del bloque de contacto */
-  }
-  
+.contact-info1,
+.contact-info2 {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.redes img {
+  height: 30px;
+  width: auto;
+  margin: 5px;
+}

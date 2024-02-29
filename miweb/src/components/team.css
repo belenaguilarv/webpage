@@ -5,7 +5,7 @@
     margin: 10px;
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 18px 12px;
     text-align: center;
     width: 90%;
@@ -14,19 +14,22 @@
   }
   
   .miembro img {
-    width: 90%;
+    width: 80%;
     height: auto;
     margin-bottom: 10px;
+    margin-top: 8px;
+    border-radius: 7px;
   }
   
   .miembro h3 {
     font-weight: bold;
     margin: 0;
-    font-size: 20px
+    font-size: 18px
   }
   
   .miembro p {
     margin: 0;
+    font-size: 14px;
   }
 
   
